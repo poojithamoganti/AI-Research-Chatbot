@@ -1,5 +1,5 @@
 {
-  "name": "ai-answer-engine",
+  "name": "AI-CHATBOT",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,21 @@
     "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.3",
+    "cheerio": "^1.0.0",
     "groq-sdk": "^0.9.0",
+    "lucide-react": "^0.468.0",
     "next": "15.0.4",
     "prettier": "^3.4.2",
+    "puppeteer": "^23.10.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.35",
     "@types/node": "^20",
+    "@types/puppeteer": "^7.0.4",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^8",

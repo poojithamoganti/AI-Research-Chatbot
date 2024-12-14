@@ -37,4 +37,8 @@ yarn-error.log*
 next-env.d.ts
 
 # env
-.env
+.env.local
+
+groq_key.txt
+upstash_redis_key.txt
+
